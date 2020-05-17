@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Nov  2 15:46:32 2019
-
-@author: Taimoor
-"""
 
 from nltk.corpus import wordnet as wnet
 from nltk.corpus import sentiwordnet as swnet
