@@ -1,11 +1,5 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Oct 14 13:33:48 2019
 
-@author: Taimoor
-"""
-
-corpus = open('E:\\dataset2.csv').read()
+corpus = open('Movies_TV.txt').read()
 docs = corpus.split('\n')
 
 from sklearn.feature_extraction.text import CountVectorizer
