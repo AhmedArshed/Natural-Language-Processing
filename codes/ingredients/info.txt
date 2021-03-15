@@ -1,0 +1,21 @@
+Natural Language Processing using spacy or anything else.
+I have JSON file.
+
+Using Spacy is the best option for me if there is other method you do prefer it's fine too.
+Within the column, there are ingredients for each food.
+However, in the ingredients, there are unwanted words like
+numbers, measurement like cups, teaspoon etc.
+
+I want only real ingredients to be leaf in the column and want to have the final result in JSON format that I could read in my node code.
+
+Desired out put is going to be like below.
+
+{"title":"Christmas Eggnog",
+"ingredients":["whites","yolks","sugar","rye","whiskey","brandy","rum","cream"],
+"id":"05zEpbSqcs9E0rcnCJWyZ9OgdH0MLby"},
+
+!Important!
+
+ingredients column has to have array having ingredients within an array "Ingredients" : ['a', 'b' ,'c' ,'d']
+
+
